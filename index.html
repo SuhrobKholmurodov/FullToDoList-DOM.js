@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="abc">
+
+    <!-- SEARCH -->
+    <form class="form1"> 
+        <div class="div1">
+        <span><img class="bca" src="./find.png" alt="Seacrh"></span>
+    <input class="name1" name="srch" type="text" placeholder="                                                                              X">
+        </div>
+    </form>
+ 
+
+           <!-- Filter User By Status -->
+       <select class="statusFilter">
+        <option value="all">All</option>
+        <option value="active">Active</option>
+        <option value="inactive">Inactive</option>
+        </select>
+
+
+
+        <p class="plusAdd">Add Task</p>
+    </div>
+    
+    <dialog class="addModal">
+        <input type="text" class="inpForImage" placeholder="  pnj/gpj...etc"><br><br>
+        <input type="text" class="inp1" placeholder="  Tasks">
+        <div class="btns">
+            <button class="btnAdd">Add</button>
+            <button class="btnClose">x</button>
+        </div>  
+    </dialog>
+
+    <dialog class="editModal">
+        <input type="text" class="ababa"><br><br>
+        <input type="text" class="inp3"><br><br><br>
+        <button class="btnEdit">Edit</button>
+        <button class="btnCloseEdit">x</button>
+    </dialog>
+    <table>
+        <thead class="one">
+            <tr>
+                <th>#</th>
+                <th>Photo</th>
+                <th>Task Name</th>
+                <th>Status</th>
+                <th>Edit</th>
+                <th>Done</th>
+                <th>Remove</th>
+                <th>Info</th>
+            </tr>
+        </thead>
+        <tbody class="box"></tbody>
+    </table>
+    <dialog class="modal3">
+        <div class="divForDelete"><br>
+            <h3>Are you sure?</h3><br><br>
+            <div class="buttons">
+                <button class="yes">Yes</button>
+                <button class="no">No</button><br><br>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog class="showinfo">
+        <div class="theone"></div>
+        <button class="aaa">X</button>
+    </dialog>
+    <script src="./main.js"></script>
+</body>
+</html>

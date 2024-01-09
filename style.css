@@ -1,0 +1,313 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table
+{
+    margin: 0 auto;
+    margin-top: 10px;  
+}
+.one tr
+{
+    border-bottom: 3px solid black;
+    width: 1100px;
+    font-weight: 900;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.box tr
+{
+    width: 1100px;
+    height: 50px;
+    display: flex;
+    font-weight: 600;
+    color: rgb(107, 104, 104);
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+.obchiy
+{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+}
+.tdAction
+{
+   width: 475px;
+   display: flex;
+   justify-content: space-between;
+}
+.delete
+{
+    width: 45px;
+    height: 40px;
+    border: 1.5px solid rgb(101, 101, 101);
+}
+.edit
+{
+    width: 45px;
+    border: 1.5px solid rgb(18, 225, 225);
+    height: 40px;
+}
+.info
+{
+    width: 35px;
+    height: 35px;
+}
+.photos
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.statusi
+{
+    width: 70px;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+}
+.check
+{
+    width: 25px;
+    accent-color: rgb(18, 225, 225);
+    margin-top: 9px;
+    height: 25px;
+}
+.abc
+{
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.plusAdd
+{
+    color: rgb(18, 225, 225);
+    font-size: 22px;
+    border: 1.5px solid rgb(18, 225, 225);
+    height: 35px;
+    border-radius: 8px;
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addModal
+{
+    background-color: rgb(144, 203, 203);
+    width: 500px;
+    height: 200px;
+    margin-left: 370px;
+    margin-top: 44px;
+}
+.inpForImage
+{
+    width: 450px;
+    margin-left: 20px;
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+}
+.inp1
+{
+    width: 450px;
+    margin-left: 20px;
+    height: 35px;
+    border: none;
+}
+.btnAdd
+{
+    background-color: rgb(207, 200, 165);
+    width: 80px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    border: 1.5px solid rgb(15, 8, 8);
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.btnClose
+{
+    background-color: rgb(207, 200, 165);
+    width: 80px;
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    border: 1.5px solid rgb(15, 8, 8);
+    margin-top: 30px;
+    margin-left: 140px;
+}
+.editModal
+{
+    background-color: rgb(160, 191, 204);
+    width: 500px;
+    height: 200px;
+    margin-left: 370px;
+    margin-top: 44px;
+}
+.ababa
+{
+    width: 450px;
+    margin-left: 20px;
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+}
+.inp3
+{
+    width: 450px;
+    margin-left: 20px;
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+}
+.btnEdit
+{
+    background-color: cyan;
+    width: 80px;
+    height: 35px;
+    border: none;
+    font-size: 17px;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+.btnCloseEdit
+{
+    background-color: cyan;
+    width: 80px;
+    height: 35px;
+    border: none;
+    font-size: 20px;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+.modal3
+{
+    top: 0;
+    border: none;
+    width: 160px;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: rgb(91, 155, 219);
+    color: wheat;
+}
+.yes
+{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(222, 7, 7);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.no 
+{
+    width: 50px;
+    height: 20px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.surat
+{
+    width: 95px;
+    height: 95px;
+    margin-left: 78px;
+}
+.showinfo
+{
+    width: 250px;
+    height: 190px;
+    margin-left: 40%;
+}
+.info
+{
+    margin-top: 3px;
+}
+.aaa
+{
+    width: 27px;
+    height: 27px;
+    margin-left: 217.5px;
+    margin-top: 7px;
+    background-color: rgb(166, 6, 6);
+    color: white;
+    border: none;
+}
+.aaa:hover
+{
+    background-color: rgb(187, 187, 187);
+    color: rgb(166, 6, 6);
+}
+.onee
+{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 90px;
+}
+.tdForId
+{
+    font-size: 24px;
+    padding-top: -140px;
+}
+.name1
+{
+    background-color: rgb(164, 203, 239);
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid grey;
+    width: 340px;
+}
+.div1
+{
+    position: relative;
+    display: flex;
+}
+.div1 input[type='text']
+{
+    padding-left: 30px;
+}
+.div1 span
+{
+    position: absolute;
+    left: 5px;
+    top: 8px;
+}
+.bca
+{
+    width: 19px;
+    height: 19px;
+}
+.name1::placeholder
+{
+    color: black;
+}
+.statusFilter
+{
+    background-color: rgb(120, 209, 209);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border-radius: 10px;
+    margin-left: -70px;
+    width: 100px;
+    height: 33px;
+    border: none;
+    color: rgb(2, 35, 17);
+    border: 1px solid rgb(5, 16, 10);
+}   
