@@ -99,7 +99,7 @@ function get(newData = data)
         tdAction.classList.add('tdAction')
         
         let info = document.createElement('img')
-        info.src = './ShowINFO2.png'
+        info.src = './ShowINFO22.png'
         info.classList.add('info')
 
         info.onclick = () =>
